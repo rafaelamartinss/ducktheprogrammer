@@ -2,7 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        redHat: ['Red+Hat+Text:ital', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-32">
     <nuxt-link :to="props.link">
       <span>{{ props.title }}</span>
     </nuxt-link>
